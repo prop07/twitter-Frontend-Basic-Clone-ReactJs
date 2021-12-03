@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.inline-block {
+  display: inline-block;
+}
+.user-img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.flex {
+  display: flex;
+}
+.justify-content-space-around {
+  justify-content: space-around;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+.user-id-name,
+.post-date {
+  color: rgb(138, 138, 138);
+}
+
+.user-name {
+  font-weight: bold;
+}
+.post-icons {
+  margin-bottom: 1rem;
+}
+.relative {
+  position: relative;
+}
+.tripledots {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.tripledotss {
+  letter-spacing: 0.1rem;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.bi-bar-chart-line-horizontal {
+  transform: rotate(90deg);
+}
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.post-input {
+  height: 5rem;
+}
+.postform-color {
+  color: gray;
+}
+
+.nav {
+  display: grid;
+}
+.nav-icons {
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1rem;
+}
+.navIconTxt {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+}
+.fixed-position {
+  position: fixed;
+  width: 22%;
+}
+.icon-central {
+  display: flex;
+  align-items: center;
+}
+.low-profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.t-d-none {
+  text-decoration: none;
+}
+.black {
+  color: black;
+}
+
+.border-none,
+.border-none:focus {
+  border: none;
+  outline: none;
+}
+.rightdash1 {
+  margin: 1rem;
+}
+.left-semi-circle {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid black;
+  border-right: none;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.right-semi-circle {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid black;
+  border-left: none;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.middle-border-input {
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-icon {
+  margin-right: 1rem;
+}
+.trends-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.trends-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.trends-topic {
+  font-size: 1rem;
+  font-weight: 800;
+}
+.margin-left {
+  margin-left: 0.5rem;
+}
+.trends-tweets,
+.trends-catagory {
+  color: rgb(138, 138, 138);
+}
+.rightdash3 {
+  padding: 1rem;
+}
+.follow-txt {
+  font-size: 0.5rem;
+  font-weight: 900;
+  color: black;
+}
+.popuppost-container {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  display: grid;
+  place-items: center;
+}
+.popuppost-inner-container {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+  border-radius: 2rem;
+  top: calc(10%);
+}
+
+.close-button {
+  padding: 0.7rem;
+  cursor: pointer;
+}
+.close-button :hover {
+  color: blue;
+}
+.none {
+  display: none;
+}
+
+/* container model */
+/* model files */
+/* button open */
+/* button close */
+/* div(conatiner)>div(moidel) */
